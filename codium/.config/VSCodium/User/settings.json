@@ -7,7 +7,7 @@
     "terminal.integrated.initialHint": false,
     "editor.insertSpaces": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.tabSize": 8,
+    "editor.tabSize": 4,
     "editor.rulers": [80],
     "clangd.path": "/usr/bin/clangd"
 }
