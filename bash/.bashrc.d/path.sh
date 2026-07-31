@@ -1,1 +1,7 @@
-pupdate() { case ":${PATH:=$1}:" in *:"$1":*) ;; *) PATH="$1:$PATH" ;; esac; }
+path_envs=()
+
+# Example
+export EXAMPLE=""
+path_envs+=("$EXAMPLE")
+
+PATH="$( IFS=":" ; echo "${path_envs[*]}" ):$PATH"
