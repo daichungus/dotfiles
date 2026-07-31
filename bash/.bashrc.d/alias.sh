@@ -1,9 +1,4 @@
 # Aliases and small helpers
-case $- in
-  *i*) ;;
-  *) return;;
-esac
-
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'

@@ -1,5 +1,11 @@
 # .bashrc
 
+# Check for non-interactive shell
+case $- in
+  *i*) ;;
+  *) return;;
+esac
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc

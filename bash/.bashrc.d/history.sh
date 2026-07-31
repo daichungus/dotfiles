@@ -1,9 +1,4 @@
 # History: live append/read and sane sizes
-case $- in
-  *i*) ;;
-  *) return;;
-esac
-
 export HISTCONTROL=ignoredups
 export HISTSIZE=1000
 export HISTFILESIZE=2000

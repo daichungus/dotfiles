@@ -1,9 +1,4 @@
 # Enable bash-completion if available
-case $- in
-  *i*) ;;
-  *) return;;
-esac
-
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
