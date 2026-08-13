@@ -5,8 +5,10 @@
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [user]
-	email = 77701856+daichungus@users.noreply.github.com
 	name = David Liu
+	email = daichungus@noreply.codeberg.org
+[commit]
+	gpgsign = true
 [pull]
 	rebase = true
 [diff]
