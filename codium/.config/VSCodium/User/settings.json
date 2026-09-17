@@ -9,5 +9,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.tabSize": 4,
     "editor.rulers": [80],
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
     "clangd.path": "/usr/bin/clangd"
 }
