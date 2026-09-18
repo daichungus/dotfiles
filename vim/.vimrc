@@ -13,4 +13,6 @@ set mouse=a
 
 set encoding=utf-8
 
+"colorscheme yuyuko
+
 syntax on
