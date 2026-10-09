@@ -9,7 +9,7 @@ fi
 path_envs=()
 
 # Example
-export EXAMPLE=""
-path_envs+=("$EXAMPLE")
+export APPIMAGES="$HOME/AppImages"
+path_envs+=("$APPIMAGES")
 
 PATH="$( IFS=":" ; echo "${path_envs[*]}" ):$PATH"
