@@ -11,5 +11,9 @@
     "editor.rulers": [80],
     "editor.renderWhitespace": "all",
     "files.insertFinalNewline": true,
-    "clangd.path": "/usr/bin/clangd"
+    "clangd.path": "/usr/bin/clangd",
+    "markdown-pdf.allowPathsOutsideWorkspace": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    }
 }
