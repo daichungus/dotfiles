@@ -7,6 +7,7 @@
 [user]
 	name = David Liu
 	email = daichungus@noreply.codeberg.org
+	# email = 77701856+daichungus@users.noreply.github.com
 [commit]
 	gpgsign = true
 [pull]
