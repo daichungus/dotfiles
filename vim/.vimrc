@@ -16,7 +16,7 @@ set mouse=a
 syntax on
 filetype plugin indent on
 
-set number
+"set number
 set ruler
 "set laststatus=2
 set showcmd
@@ -40,3 +40,7 @@ set timeoutlen=400
 set ttimeoutlen=50
 
 "colorscheme yuyuko
+
+"if has ("termguicolors")
+"	set termguicolors
+"endif
